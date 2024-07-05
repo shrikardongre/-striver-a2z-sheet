@@ -1,7 +1,7 @@
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
- long long sumOfDivisors(int n)
+/* long long sumOfDivisors(int n)
     { 
         int sq=sqrt(n);
         long long sum =0;
@@ -30,3 +30,19 @@ int main()
     cout<<total_sum(4);
     return 0;
 }
+*/
+/////////////////////////////////////////
+// best approach
+
+//     long long sumOfDivisors(int N)
+//     {
+//         long long sum = 0;
+        
+//         for (int i = 1; i <= N; i++) {
+//             sum += i * (N / i);
+//         }
+        
+//         return sum;
+//     }
+// };
+
