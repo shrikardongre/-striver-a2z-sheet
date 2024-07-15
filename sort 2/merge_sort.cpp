@@ -38,7 +38,7 @@ void mergesort (vector <int> &arr ,int low ,int high){
 }
 int main()
 {
-    vector <int> arr ={2,5,3,6,8,6};
+    vector <int> arr ={2,5,9,6,3,7,8};
     int n =arr.size();
     mergesort(arr,0,n-1);
     for (int i = 0; i < n; i++)
